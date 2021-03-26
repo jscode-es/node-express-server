@@ -1,0 +1,19 @@
+{
+  "name": "node-express-server",
+  "version": "1.0.0",
+  "description": "Servidor express HTTP2/HTTPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSCode-es/node-express-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSCode-es/node-express-server/issues"
+  },
+  "homepage": "https://github.com/JSCode-es/node-express-server#readme"
+}
