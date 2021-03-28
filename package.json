@@ -1,19 +1,26 @@
 {
-  "name": "node-express-server",
-  "version": "1.0.0",
+  "name": "node-server-express",
+  "version": "1.0.1",
   "description": "Servidor express HTTP2/HTTPS",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JSCode-es/node-express-server.git"
   },
-  "author": "",
+  "author": "Sergio Gonzalez <sgonzalez@jscode.es> (https://jscode.es)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JSCode-es/node-express-server/issues"
   },
-  "homepage": "https://github.com/JSCode-es/node-express-server#readme"
+  "homepage": "https://github.com/JSCode-es/node-express-server#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "fs-extra": "^9.1.0",
+    "terminal-kit": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
 }
